@@ -1,0 +1,88 @@
+body {
+    background-image: url(https://magarticles.magzter.com/articles/425/476716/5f06e2ec9371f/Esports.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#title-div {
+    text-align: center;
+    color: white;
+    margin: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#title {
+    margin-bottom: -10px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+}
+
+p {
+    margin-bottom: -0.04rem;
+}
+
+.form-control, select, textarea {
+    margin-bottom: 0.5rem;
+    margin-right: 0.25rem;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 98%;
+    border-radius: 2px;
+    border: none;
+    padding-inline: 5px;
+}
+
+.form-control:focus, select:focus, textarea:focus {
+    border: 2px solid yellowgreen;
+}
+
+#survey-form {
+    background-color: rgba(22, 22, 22, 0.822);
+    position: relative;
+    left: 25%;
+    width: 50%;
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.input-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.25rem;
+    font-style: normal;
+}
+
+.inputs {
+    margin-top: 1rem;
+}
+.input-radio, .checkbox {
+    margin-right: 1rem;
+}
+
+.input-radio:checked, .checkbox:checked {
+    border: 1px solid yellowgreen;
+}
+
+button {
+    margin-right: 0.25rem;
+    margin-top: 1rem;
+    margin-left: 5%;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 90%;
+    height: 10%;
+    border-radius: 2px;
+    border: none;
+    text-align: center;
+    background-color: #2d98fd;
+}
+
